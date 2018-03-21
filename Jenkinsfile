@@ -4,8 +4,8 @@ pipeline {
         stage('build') {
             steps {
                 //sh 'npm --version'
-                //sh 'hostname'
-                sh 'date'
+                sh 'hostname'
+                //sh 'date'
             }
         }
     }
